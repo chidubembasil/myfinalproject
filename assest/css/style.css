@@ -1,0 +1,723 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --color1 : black;
+    --color2 : #fcfcfc;
+    --color3 : #ef476f;
+    --color4 : rgb(234, 199, 5);
+}
+body{
+    background-color: var(--color1);
+}
+
+/* Nav-bar */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-logo{
+    width: 400px;
+}
+h1{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color4);    
+    padding-left: 20px;
+    padding-top: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 70px;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color4);
+}
+
+/* Hamburger Menu */
+.burger{
+    border: 2px solid var(--color4);
+    width: 25px;
+    margin-top: 5px;
+}
+.ham{
+    display: none;
+  
+}
+
+/* main */
+/* Homepage */
+#big-sect{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 0px;
+    width: 100%;
+}
+#p1{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: var(--color2);
+    text-align: center;
+}
+.span1{
+    color: var(--color3);
+}
+#p2{
+    color: var(--color2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#btn2{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin: auto;
+    display: block;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    background-color: var(--color4);
+    color: var(--color2);
+    cursor: pointer;
+}
+#btn2:hover{
+    transition-delay: 0.2s;
+    background-color: var(--color2);
+    color: var(--color4);
+    transition-duration: 2s; 
+}
+a{
+    text-decoration: none;
+}
+#sect{
+    margin-left:20px;
+}
+/* homepage-car */
+#sect1{
+    border: 2px solid var(--color4);
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: var(--color4);
+    margin-right: 60px;
+}
+#image1{
+    width: 500px;
+    margin-left: -95px;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+
+/* Explore */
+#sect2{
+    background-color: var(--color2);
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px; 
+}
+#car1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#car2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* car sizing */
+#p4{
+    text-align: center;
+    color: var(--color1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    padding-top: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.big-car1{
+    width:200px;
+    display: block;
+    margin: auto;
+}
+.big-car2{
+    width:300px;
+    display: block;
+    margin: auto;
+}
+.bigger-car{
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+#mid-car{
+    width: 250px; 
+    display: block;
+    margin: auto;
+}
+.p3{
+    color: var(--color1);
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* cars */
+h4{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--color1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+#car-product{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--color2);
+    margin-top: 50px;
+}
+.image-car{
+    width: 80%;
+}
+.image-car1{
+    width: 80%;
+}
+.car-brand{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.car-name{
+    align-items: center;
+
+}
+.p8{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.span2{
+    font-weight: bold;
+}
+.btn4{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: var(--color4);
+    border-radius: 20px;
+    outline-color: var(--color4);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.btn4:hover{
+    background-color: var(--color1);
+    color: var(--color4);
+}
+/* about */
+#sect4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#main4{
+    border: 2px solid var(--color4);
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: var(--color4);
+    margin: 60px;
+    margin-left: 80px;
+}
+#image4{
+    width: 200%;
+    padding-right: 30px;
+    margin-left: -100px;
+}
+#p5{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: var(--color2);
+    width: 80%;
+}
+h2{
+    color: var(--color2);
+    text-align: center;
+    margin-right: 300px;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* contact */
+#sect5{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 40px;  
+}
+iframe{
+    width: 70%;
+    margin:50px;
+}
+#contact-form{
+    border: 2px solid var(--color4);
+    width: 70%;
+    height: fit-content;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius:10px;
+}
+label{
+    font-size: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color2);
+}
+input{
+    border-bottom: 2px solid var(--color4);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 20px;
+    font-size:1.5rem;
+    width: 100%;
+    color: var(--color2);
+    margin: auto;
+    display: block;
+    margin-top: -30px;
+    padding-top: 30px;
+}
+#btn3{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: var(--color4);
+    color: var(--color2);
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    font-size: 1.5rem;
+}
+#btn3:hover{
+    transition-delay: 0.2s;
+    background-color: var(--color2);
+    color: var(--color4);
+    transition-duration: 2s; 
+}
+textarea{
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size:1.2rem;
+    color: var(--color1);
+    outline-color: var(--color4);
+    padding-top: 5px;
+    width: 90%;
+    height: 80%;
+}
+#top-page{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: var(--color4);
+    float: right;
+    position: sticky;
+    margin-right: 60px;
+    margin-top: -20px;
+}
+#top-page:hover{
+    transform: scaleX(1.5);
+    transform: scaleY(1.2);
+}
+#image5{
+    width: 20px;
+    margin: auto;
+    display: block;
+    padding-top: 5px;
+}
+
+/* footer */
+footer{
+    color: var(--color4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+#foot-main{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+h3{
+    color: var(--color4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p5{
+    padding-top: px;
+    color: var(--color2);
+} 
+.detail{
+    color: var(--color2);
+}
+
+@media(max-width:768px){
+    header{
+        display: flex;
+    }
+    nav{
+        display: none;
+        width: 100%;
+        background-color: var(--color1);
+        border: 2px solid var(--color4);
+        position: absolute;
+        left: 0;
+        top: 100px;
+    }
+    nav ul{
+        display: block;
+        width: 100%;
+        margin-top: -30px;
+    }
+    nav ul li{
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 250px;
+        margin-left: 10%;
+        margin-right: 15%;
+        padding-left: 10%;
+        padding-right: 15%;
+    }
+    nav li:hover{
+        background-color: var(--color2);
+    }
+   
+    nav.active{
+        display: flex;
+    }
+    .ham{
+        display: block;
+        margin-right: 20px;
+        cursor: pointer;
+        position: relative;
+    }
+    nav ul li{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #header-logo{
+        margin-left: -30px;
+        width: 250px;
+    }
+    #p1{
+        font-size: 1.5rem;
+    }  
+    #big-sect{
+        margin-top: 150px;
+        display: block;
+        justify-content: center;
+        align-content: center;
+    }
+    #btn2{
+        width: 100px;
+        font-size: 1rem;
+        height: 30px;
+    }
+    #p2{
+        font-size: 1rem;
+    }
+    #sect1{
+        border: 2px solid var(--color4);
+        width: 170px;
+        height: 170px;
+        border-radius: 300px;
+        background-color: var(--color4);
+        display: block;
+        margin: auto;
+    }
+    #image1{
+        width: 320px;
+        display: block;
+        margin: auto;
+        margin-left: -80px;
+        margin-top: 50px;
+    }
+    #main-img{
+        display: none;
+    }
+    #car1{
+        display: block;
+    }
+    #car2{
+        display: block;
+    }
+    #car3{
+        display: block;
+    }
+    
+    /* car sizing */
+    #p4{
+        text-align: center;
+        color: var(--color1);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.2rem;
+        padding-top: 20px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    .big-car1{
+        width:13%;
+        display: block;
+        margin: auto;
+    }
+    .big-car2{
+        width:20%;
+        display: block;
+        margin: auto;
+    }
+    .bigger-car{
+        width: 15%;
+        display: block;
+        margin: auto;
+    }
+    #mid-car{
+        width: 17%; 
+        display: block;
+        margin: auto;
+    }
+    .p3{
+        color: var(--color1);
+        font-size: 1.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    /* cars */
+    #car-product{
+        width: fit-content;
+    }
+    h4{
+        padding-top: 20px;
+        text-align: center;
+        text-decoration: underline;
+        color: var(--color1);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem;
+    }
+    #car-product{
+        width: 100%;
+        height: fit-content;
+        background-color: var(--color2);
+        margin-top: 50px;
+    }
+    .image-car{
+        width: 60%;
+    }
+    .image-car1{
+        width: 60%;
+    }
+    .car-brand{
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .image-car{
+        margin: auto;
+        display: block;   
+    }
+    .image-car1{
+        margin: auto;
+        display: block;   
+    }
+    .car-name{
+        align-items: center;
+        
+    }
+    .p8{
+        text-align: center;
+        text-transform: uppercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .span2{
+        font-weight: bold;
+    }
+
+    /* about */
+    h2{
+        text-align: center;
+        margin: auto;
+        display: block;
+        margin-left: 20px;
+    }
+    #p5{
+        font-size: 1rem;
+        text-align: justify;
+        width: 150%;
+        margin: auto;
+        display: block;
+        margin-left: 20px;
+    }
+    #main-about{
+       width: 100%;
+    }
+    #sub-about{
+        align-content: center;
+        justify-content: center;
+     }
+
+    /* contact */
+    iframe{
+        width: 85%;
+        margin: auto;
+        display: block;
+    }
+    #sect5{
+        display: block;
+        padding-top: 40px;  
+    }
+    #contact-form{
+        border: 2px solid var(--color4);
+        width: 85%;
+        height: fit-content;
+        margin-top: 70px;
+        padding: 30px;
+        margin: auto;
+        display: block;
+    }
+    label{
+        font-size: 1.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: var(--color2);
+    }
+    input{
+        border-bottom: 2px solid var(--color2);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        outline: none;
+        background-color: transparent;
+        padding-left: 20px;
+        font-size:1.2rem;
+        height: fit-content;
+        width: 100%;
+        color: var(--color2);
+        margin: auto;
+        display: block;
+        margin-top: -20px;
+    }
+    #btn3{
+        width: 100%;
+        height: 30px;
+        font-size: 1.5rem;
+    }
+    #btn3:hover{
+        transition-delay: 0.2s;
+        background-color: var(--color2);
+        color: var(--color4);
+        transition-duration: 2s; 
+    }
+    textarea{
+        width: 100%;
+        margin-right: 20px;
+        margin: auto;
+        display: block;
+    }
+    #image5{
+        width: 15px;
+        margin: auto;
+        display: block;
+        padding-top: 5px;
+    }
+    
+    /* footer */
+    footer{
+        margin-top: 30px;
+    }
+    h3{
+        color: var(--color4);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.6em;
+    }
+    .p5{
+        padding-top: px;
+        color: var(--color2);
+        font-size: 0.4em;
+        text-align: justify;
+        width: 40%;
+    } 
+    .p9{
+        font-size: 0.6rem;
+    }
+    .detail{
+        color: var(--color2);
+    }
+    #top-page{
+        width: 20px;
+        height: 20px;
+        margin-top: -5px;
+        margin-right: 50px;
+    }
+    svg{
+        height: 20px;
+    }
+}
+
+@media (max-width:900px) {
+    nav ul li a{
+        font-size: 0.8rem;
+    }
+    nav ul{
+        gap: 45px;
+    }
+    #main4{
+        border: 2px solid var(--color4);
+        width: 250px;
+        height: 250px;
+        border-radius: 300px;
+        background-color: var(--color4);
+        margin: 60px;
+        margin-left: 50px;
+    }
+    #image4{
+        width: 150%;
+        padding-right: 30px;
+        margin-left: -50px;
+    }
+    
+}
+@media(max-width:500px){
+    #header-logo{
+        width: 200px;
+    }
+    nav ul{
+        margin-left: 60px;
+    }
+}
+@media(max-width:751px){
+
+}
