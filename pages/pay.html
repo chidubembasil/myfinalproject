@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="../asset/css/pay.css">
+</head>
+<body>
+    <header>
+       
+        <h1 id="header1"><a href="../index.html"><img src="../asset/image/icon/Screenshot__221_-removebg-preview.png" alt="CarHub" id="header-logo"></a></h1>
+        
+        <div class="heading">   
+            <div class="ham">
+                <div class="burger"></div>
+                <div class="burger"></div>
+                <div class="burger"></div>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li disable><a href="../index.html" >Car</a></li>
+                    <li><a href="../index.html">About</a></li>
+                    <li><a href="../index.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div> 
+    </header>
+    <main>
+        
+        <div id="main-pay">
+            <div class="pay">
+                <form action="../index.html">
+                    <div class="address">
+                        <label for="fname">First Name:</label>
+                        <br>
+                        <input type="text" name="firstname" id="fname">
+                    </div>
+                    <br>
+                    <div class="address">
+                        <label for="lname">Last Name:</label>
+                        <br>
+                        <input type="text" name="lastname" id="lname">
+                    </div>
+                    <br>
+                    <div class="address">
+                        <label for="numb">Tel:</label>
+                        <br>
+                        <input type="tel" name="number" id="numb">
+                    </div>
+                    <br>
+                    <div class="address">
+                        <label for="mail">E-mail:</label>
+                        <br>
+                        <input type="email" name="email" id="mail">
+                    </div>
+                    <br>
+                    <div class="address">
+                        <label for="locate">Address:</label>
+                        <br>
+                        <input type="text" name="location" id="locate">
+                    </div>
+                    <br>
+                    <div class="address">
+                        <label for="city">City:</label>
+                        <br>
+                        <input type="text" name="location" id="city">
+                    </div>
+                    <br>
+                    <div class="address">
+                        <label for="state">State:</label>
+                        <br>
+                        <input type="text" name="location" id="state">
+                    </div>
+                    
+                </form>
+            </div>
+            <br>
+            <div class="pay" id="card-details">
+                <form action="../index.html">
+                    <div class="payment">
+                        <label for="card">Accepted Cards:</label>
+                        <br>
+                        <div class="images">
+                            <img src="../asset/image/icon/master-card-2962135_1280.png" alt="master card" loading="lazy">
+                        </div>    
+                        <div class="images">
+                            <img src="../asset/image/icon/visa-6850402_1280.png" alt="visa" loading="lazy">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="payment">
+                        <label for="cname">Card Name:</label>
+                        <br>
+                        <input type="text" name="card name" id="cname">
+                    </div>
+                    <br>
+                    <div class="payment">
+                        <label for="cnumber">Card Number:</label>
+                        <br>
+                        <input type="text" name="card number" id="cnumber" inputmode="numeric">
+                    </div>
+                    <br>
+                    <div class="payment">
+                        <label for="month">Exp Date:</label>
+                        <br>
+                        <input type="month" name="exp month" id="month" min="2023-01">
+                    </div>
+                    <br>
+                    <div class="payment">
+                        <label for="">CVV:</label>
+                        <br>
+                        <input type="text" name="cvv" id="cvv" inputmode="numeric">
+                    </div>
+                </form>
+                <br>
+                <button type="submit" loading="lazy">Submit</button>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../asset/js/pay.js"></script>
+</body>
+</html>

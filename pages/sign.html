@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up/Sign in</title>
+    <link rel="stylesheet" href="../asset/css/sign.css">
+</head>
+<body>
+    <header>
+        <h1 id="header1"><a href="../index.html"><img src="../asset/image/icon/Screenshot__221_-removebg-preview.png" alt="CarHub" id="header-logo"></a></h1>
+        <div class="ham">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+        </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html">Car</a></li>
+            <li><a href="../index.html">About</a></li>
+            <li><a href="../index.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <div id="word">
+            <p id="sign1">Sign up</p>
+            <br>
+            <p id="sign2">Sign in</p>
+        </div>
+        <form action="pay.html" onsubmit="return signing()" id="form1">
+        <div class="big-div">
+            
+            <br>
+            
+                <h2>Sign up</h2>
+                <br>
+                <div class="div1">
+                    <label for="fname">First Name:</label>
+                    <br>
+                    <input type="text" name="firstname" id="fname">
+                </div>
+                <br>
+                <div class="div1">
+                    <label for="lname">Last Name:</label>
+                    <br>
+                    <input type="text" name="lastname" id="lname">
+                </div>
+                <br>
+                <div class="div1">
+                    <label for="pin">Password:</label>
+                    <br>
+                    <input type="password" name="real password" id="pin">
+                </div>
+                <br>
+                <div class="div1">
+                    <label for="pin1">Confirm Password:</label>
+                    <br>
+                    <input type="password" name="confirm password" id="pin1">
+                </div>
+                <br>
+                <div class="div1">
+                    <label for="email">E-mail:</label>
+                    <br>
+                    <input type="email" name="email" id="email" >
+                </div>
+                <br>
+                <button type="submit">Sign up</button>
+                <br>
+            
+            <br>
+            <br>
+            
+            
+        </div>
+        </form>
+        <form action="pay.html" onsubmit="return loging()" id="form2">
+        <div class="big-div1">
+            <br>
+                <h2>Sign in</h2>
+                <br>
+                <div class="div1">
+                    <label for="firstname">First Name:</label>
+                    <br>
+                    <input type="text" name="firstname" id="firstname">
+                </div>
+                <br>
+                <div class="div1">
+                    <label for="lastname">Last Name:</label>
+                    <br>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <br>
+                <div class="div1">
+                    <label for="password">Password:</label>
+                    <br>
+                    <input type="password" name="real password" id="password">
+                </div>
+                <br>
+                <button type="submit">Sign in</button>
+                <br>
+                <br>
+            
+        </div>
+    </form>
+    </main>   
+    <script src="../asset/js/sign.js"></script>
+</body>
+</html>
